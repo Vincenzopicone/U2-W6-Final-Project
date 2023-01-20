@@ -1,0 +1,55 @@
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   padding: 1.5% 8%;
+   background: $bgNavabar;
+   
+
+}
+
+.menu-list {
+   display: flex;
+   justify-content: baseline;
+   align-content: center;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+
+
+   li{
+    margin-right: 10%;
+    font-size: 1.5em;
+    font-weight: 700;
+    &:hover {
+        transform: scale(1.2);
+    }
+   }
+
+   a {
+    text-decoration: none;
+    color: white;
+
+   }
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        font-size: 1.5em;
+        color: white;
+        cursor: pointer;
+    }
+
+    a {
+        margin:0 15% 0 0;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    
+}

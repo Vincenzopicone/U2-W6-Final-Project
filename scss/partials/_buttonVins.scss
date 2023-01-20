@@ -1,0 +1,15 @@
+@mixin buttonVins {
+    padding: 0.5em 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    background: $buttonVinsColor ;
+    border-radius: 15px;
+    width: 50%;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,123 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 1.5% 8%;
+  background: linear-gradient(173deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: baseline;
+  align-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-list li {
+  margin-right: 10%;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.menu-list li:hover {
+  transform: scale(1.2);
+}
+.menu-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-list i {
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+}
+.icon-list a {
+  margin: 0 15% 0 0;
+}
+.icon-list a:hover {
+  transform: scale(1.2);
+}
+
+body {
+  font-family: Dosis;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+main {
+  padding: 3%;
+  background: linear-gradient(173deg, rgba(83, 188, 217, 0.082) 0%, rgba(8, 10, 131, 0.103) 100%);
+}
+
+main section {
+  width: 100%;
+  height: 50vh;
+}
+main section .title-section h1 {
+  font-size: 3em;
+}
+main section .title-section h2 {
+  font-size: 1.5em;
+}
+
+.buttonVins {
+  padding: 0.5em 1em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  background: linear-gradient(173deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+  border-radius: 15px;
+  width: 50%;
+}
+.buttonVins:hover {
+  transform: scale(1.1);
+}
+
+.buttonUp {
+  padding: 0.5em 1em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  background: linear-gradient(173deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+  border-radius: 15px;
+  width: 50%;
+  font-size: 1.5em;
+  width: auto;
+}
+.buttonUp:hover {
+  transform: scale(1.1);
+}
+
+.buttonPosition {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  color: white;
+  background: rgb(83, 187, 217);
+  background: linear-gradient(319deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
