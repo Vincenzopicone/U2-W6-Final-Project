@@ -45,6 +45,18 @@ nav {
   transform: scale(1.2);
 }
 
+footer {
+  padding: 3%;
+  width: 100%;
+  color: white;
+  background: rgb(83, 187, 217);
+  background: linear-gradient(319deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 body {
   font-family: Dosis;
 }
@@ -60,6 +72,13 @@ main {
   padding: 3%;
   background: linear-gradient(173deg, rgba(83, 188, 217, 0.082) 0%, rgba(8, 10, 131, 0.103) 100%);
 }
+main h1 {
+  font-weight: 800;
+}
+main h2 {
+  font-weight: 600;
+  font-style: italic;
+}
 
 main section {
   width: 100%;
@@ -72,16 +91,20 @@ main section .title-section h2 {
   font-size: 1.5em;
 }
 
+article h2 {
+  text-align: center;
+}
+
 .buttonVins {
   padding: 0.5em 1em;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1rem;
-  background: linear-gradient(173deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+  font-size: 0.8rem;
+  background: linear-gradient(173deg, rgb(34, 85, 151) 0%, rgb(75, 110, 156) 100%);
   border-radius: 15px;
-  width: 50%;
+  width: 80%;
 }
 .buttonVins:hover {
   transform: scale(1.1);
@@ -93,10 +116,10 @@ main section .title-section h2 {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1rem;
-  background: linear-gradient(173deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
+  font-size: 0.8rem;
+  background: linear-gradient(173deg, rgb(34, 85, 151) 0%, rgb(75, 110, 156) 100%);
   border-radius: 15px;
-  width: 50%;
+  width: 80%;
   font-size: 1.5em;
   width: auto;
 }
@@ -108,16 +131,4 @@ main section .title-section h2 {
   display: flex;
   justify-content: end;
   width: 100%;
-}
-
-footer {
-  height: 20vh;
-  width: 100%;
-  color: white;
-  background: rgb(83, 187, 217);
-  background: linear-gradient(319deg, rgb(83, 187, 217) 0%, rgb(8, 11, 131) 100%);
-}
-footer a {
-  color: white;
-  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
