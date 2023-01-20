@@ -5,12 +5,14 @@
 
 body {
     font-family: Dosis;
+    width: 100%;
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 999;
+    width: 100%;
 }
 
 main {
@@ -69,6 +71,11 @@ article h2 {
     display: flex;
     justify-content: end;
     width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.514);
+    font-weight: 700;
 }
 
 aside {
