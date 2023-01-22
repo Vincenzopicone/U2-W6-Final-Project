@@ -5,9 +5,14 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 0.8rem;
-    background: $buttonVinsColor ;
     border-radius: 15px;
     width: 80%;
+
+    @if ($darkMode == true) {
+        background: $buttonVinsColorNight;
+       } @else {
+        background: $buttonVinsColor;
+       }
 
     &:hover {
         transform: scale(1.1);

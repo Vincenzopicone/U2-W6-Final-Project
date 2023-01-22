@@ -17,7 +17,11 @@ header {
 
 main {
     padding: 3%;
-    background: $bgBody;
+    @if ($darkMode == true) {
+        background: $bgBodyNight;
+       } @else {
+        background: $bgBody;
+       }
     h1 {
         font-weight: 900;
         font-size:3em;
@@ -35,9 +39,6 @@ main section {
     width: 100%;
     padding: 2%;
     background-color: lightgrey;
-
-
-
     .title-section {
         h3 {
             font-size: 1.5em;
@@ -48,8 +49,14 @@ main section {
 }
 
 article {
-    background-color: rgb(123, 189, 209);
+    
     padding: 3%;
+
+    @if ($darkMode == true) {
+        background: lightgrey;
+       } @else {
+        background-color: rgb(123, 189, 209);
+       }
 }
 
 article h2 {
@@ -82,5 +89,6 @@ aside {
     padding: 3%;
     background-color: lightgray ;
 }
+
 
 

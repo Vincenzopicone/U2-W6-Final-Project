@@ -3,3 +3,17 @@ $bgBody: linear-gradient(173deg, rgba(83, 188, 217, 0.082) 0%, rgba(8, 10, 131, 
 $bgNavabar: linear-gradient(173deg, rgba(83,187,217,1) 0%, rgba(8,11,131,1) 100%);
 $buttonVinsColor: linear-gradient(173deg, rgb(34, 85, 151) 0%, rgb(75, 110, 156) 100%);
 $bgFooter: linear-gradient(319deg, rgba(83,187,217,1) 0%, rgba(8,11,131,1) 100%);
+
+// COLORI NIGHT-MODE
+
+$bgBodyNight: linear-gradient(319deg, rgba(107,112,113,1) 0%, rgba(27,27,28,1) 100%);
+$bgNavabarNight: linear-gradient(319deg, rgba(107,112,113,1) 0%, rgba(27,27,28,1) 100%);
+$buttonVinsColorNight: black;
+$bgFooterNight: linear-gradient(319deg, rgba(107,112,113,1) 0%, rgba(27,27,28,1) 100%);
+
+
+/// DARK MODE 
+
+// Cambiando il valore di $darkMode in TRUE viene attivata la Dark Mode
+
+$darkMode: false;

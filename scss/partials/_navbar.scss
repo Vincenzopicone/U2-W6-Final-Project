@@ -4,8 +4,13 @@ nav {
    align-items: center;
    position: sticky;
    padding: 1.5% ;
-   background: $bgNavabar;
    width: 100%;
+
+   @if ($darkMode == true) {
+    background: $bgNavabarNight ;
+   } @else {
+    background: $bgNavabar;
+   }
    
 
 }
